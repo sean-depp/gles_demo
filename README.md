@@ -353,6 +353,3 @@ int main(int /*argc*/, char ** /*argv*/) {
 ![](https://tva1.sinaimg.cn/large/006tNbRwly1gb6xdnhcf6g30k00ciqv5.gif)
 
 > 至于更多有关OpenGL_ES的内容, 就要等后续的部分啦. 喜欢记得点赞或者关注哦~
-
-
-> 至于更多有关OpenGL_ES的内容, 就要等后续的部分啦. 喜欢记得点赞或者关注哦~
