@@ -311,12 +311,8 @@ int main(int /*argc*/, char ** /*argv*/) {
     start = clock();
 
     // opengl_es工具类实例
-    GLESUtils glesUtils;
-
-    // 设置窗口大小和名称
-    glesUtils.setWindowWH(1600, 900);
-    std::string appName = std::string("GLES Demo");
-    glesUtils.setAppName(appName);
+    std::string appName("GLES Demo");
+    GLESUtils glesUtils(WIN_WIDTH, WIN_HEIGHT, appName);
 
     // 初始化本地和EGL相关
     glesUtils.initNativeAndEGL();
@@ -348,8 +344,10 @@ int main(int /*argc*/, char ** /*argv*/) {
 
 ## 最后
 
-> 最后看看效果吧.
+> 来看看效果吧.
 
-![](https://tva1.sinaimg.cn/large/006tNbRwly1gb6xdnhcf6g30k00ciqv5.gif)
+![](https://tva1.sinaimg.cn/large/006tNbRwly1gbcnk0rnmjg30k00ci4qq.gif)
 
 > 至于更多有关OpenGL_ES的内容, 就要等后续的部分啦. 喜欢记得点赞或者关注哦~
+
+
